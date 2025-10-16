@@ -1,0 +1,676 @@
+2025-09-30 21:52:40,478 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 21:52:43,264 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 21:53:51,891 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 21:53:52,652 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 21:54:06,269 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 21:54:06,796 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 21:54:27,567 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 21:54:28,486 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 21:54:29,091 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 21:54:29,996 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:09:02,830 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:09:03,294 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:10:20,087 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:10:20,644 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:10:31,748 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:10:32,195 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:14:36,197 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:14:36,614 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:14:38,064 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:14:38,614 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:14:39,414 - tensorflow - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000016235661D80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-30 22:14:51,116 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:14:51,631 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:14:56,247 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:14:56,787 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:14:57,831 - tensorflow - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000162379B5990> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-30 22:15:36,690 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:15:37,184 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:15:39,765 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:15:40,214 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:17:35,619 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:17:36,066 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:17:39,167 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:17:39,691 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:17:45,274 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:17:45,683 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:18:43,286 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:18:43,956 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:18:47,088 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:18:47,961 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:18:49,645 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:18:50,216 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:18:55,531 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:18:56,195 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:20:39,847 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:20:40,453 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:21:55,433 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:21:55,937 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:22:12,151 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:22:12,831 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:22:13,532 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:22:14,033 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:25:09,306 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:25:10,124 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:29:43,475 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:29:43,513 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:29:44,096 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:30:58,529 - power_availability_app - INFO -   feeder_name  availability_hrs  consumption_mwh  ... month is_weekend  lag1_avail
+0   AGBARA 33              24.0            267.0  ...     1          0        24.0
+1   AGBARA 33              10.0            104.2  ...     1          0        24.0
+2   AGBARA 33               4.0             48.6  ...     1          0        10.0
+3   AGBARA 33              21.0            227.0  ...     1          1         4.0
+4   AGBARA 33              21.0            225.5  ...     1          1        21.0
+
+[5 rows x 8 columns]
+2025-09-30 22:30:58,586 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:30:58,586 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:31:09,607 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:31:09,774 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:31:10,138 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:31:34,317 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:31:34,404 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:31:34,414 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:32:07,313 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:32:07,346 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:32:07,355 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:32:15,649 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:32:15,664 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:32:15,664 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:32:19,263 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:32:19,280 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:32:19,281 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:32:26,578 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:32:26,578 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:32:26,593 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:33:03,707 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:33:03,726 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:33:03,728 - power_availability_app - INFO -   feeder_name  consumption_mwh feeder_type day_of_week  month  is_weekend  lag1_avail
+0   AGBARA 33            267.0  Industrial   Wednesday      1           0        24.0
+1   AGBARA 33            104.2  Industrial    Thursday      1           0        24.0
+2   AGBARA 33             48.6  Industrial      Friday      1           0        10.0
+3   AGBARA 33            227.0  Industrial    Saturday      1           1         4.0
+4   AGBARA 33            225.5  Industrial      Sunday      1           1        21.0
+2025-09-30 22:33:03,744 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:33:04,161 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:33:06,521 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 22:35:42,206 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:35:42,224 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:35:42,228 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:35:50,560 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:35:50,567 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:35:50,579 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:35:56,802 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:35:56,813 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:35:56,813 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:36:00,298 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:36:00,316 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:36:00,317 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:36:00,484 - power_availability_app - INFO -          date feeder_name  availability_hrs  ...  month is_weekend lag1_avail
+0  2019-01-02   AGBARA 33              24.0  ...      1          0       24.0
+1  2019-01-03   AGBARA 33              10.0  ...      1          0       24.0
+2  2019-01-04   AGBARA 33               4.0  ...      1          0       10.0
+3  2019-01-05   AGBARA 33              21.0  ...      1          1        4.0
+4  2019-01-06   AGBARA 33              21.0  ...      1          1       21.0
+
+[5 rows x 9 columns]
+2025-09-30 22:36:00,497 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:36:00,497 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:36:54,057 - power_availability_app - INFO -   feeder_name  availability_hrs  consumption_mwh  ... month is_weekend  lag1_avail
+0   AGBARA 33              24.0            267.0  ...     1          0        24.0
+1   AGBARA 33              10.0            104.2  ...     1          0        24.0
+2   AGBARA 33               4.0             48.6  ...     1          0        10.0
+3   AGBARA 33              21.0            227.0  ...     1          1         4.0
+4   AGBARA 33              21.0            225.5  ...     1          1        21.0
+
+[5 rows x 8 columns]
+2025-09-30 22:36:54,073 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:36:54,074 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:37:17,183 - power_availability_app - INFO -   feeder_name  availability_hrs  consumption_mwh  ... month is_weekend  lag1_avail
+0   AGBARA 33              24.0            267.0  ...     1          0        24.0
+1   AGBARA 33              10.0            104.2  ...     1          0        24.0
+2   AGBARA 33               4.0             48.6  ...     1          0        10.0
+3   AGBARA 33              21.0            227.0  ...     1          1         4.0
+4   AGBARA 33              21.0            225.5  ...     1          1        21.0
+
+[5 rows x 8 columns]
+2025-09-30 22:37:17,199 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:37:17,199 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:37:29,980 - power_availability_app - INFO -   feeder_name  availability_hrs  consumption_mwh  ... month is_weekend  lag1_avail
+0   AGBARA 33              24.0            267.0  ...     1          0        24.0
+1   AGBARA 33              10.0            104.2  ...     1          0        24.0
+2   AGBARA 33               4.0             48.6  ...     1          0        10.0
+3   AGBARA 33              21.0            227.0  ...     1          1         4.0
+4   AGBARA 33              21.0            225.5  ...     1          1        21.0
+
+[5 rows x 8 columns]
+2025-09-30 22:37:30,013 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:37:30,013 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:42:23,285 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:42:23,985 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:43:42,986 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:43:42,986 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:43:49,639 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:43:49,639 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:43:54,432 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:43:54,432 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:43:58,073 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:43:58,074 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:44:01,681 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:44:01,681 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:44:05,873 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:44:05,873 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:49:09,958 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:49:09,958 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:49:47,862 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:49:47,862 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:02,424 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:02,424 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:06,846 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:06,846 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:07,044 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:07,052 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:07,257 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:07,259 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:07,486 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:07,487 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:50:07,633 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:50:07,636 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:51:15,688 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:51:15,688 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:51:22,417 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:51:22,418 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:51:31,676 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:51:31,683 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:53:14,803 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:53:14,804 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:54:41,678 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:54:41,678 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:54:51,842 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:54:51,842 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:59:32,425 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:59:32,425 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:59:35,111 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:59:35,112 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 22:59:43,082 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 22:59:43,085 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:00:00,167 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:00:00,167 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:00:26,147 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:00:26,147 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:00:32,067 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:00:32,067 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:00:54,279 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:00:54,285 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:03:01,382 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:03:01,382 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:08:33,254 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:08:33,256 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:08:35,006 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:08:35,007 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:09:13,181 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:09:13,182 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:09:22,933 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:09:22,936 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:09:28,563 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:09:28,565 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:10:30,946 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:10:30,946 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:10:32,844 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:10:32,844 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:11:22,145 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:11:22,145 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:11:39,957 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:11:39,957 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:11:56,593 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:11:56,593 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:13:00,174 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:13:00,174 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:13:34,842 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:13:34,842 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:13:59,592 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:13:59,594 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:14:14,923 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:14:14,924 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:23,975 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:23,975 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:35,455 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:35,455 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:36,892 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:36,892 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:40,010 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:40,010 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:42,689 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:42,689 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:45,106 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:45,106 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:47,793 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:47,793 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:19:56,261 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:19:56,261 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:28:01,329 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:28:01,329 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:28:20,969 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:28:20,969 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:28:44,910 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:28:44,910 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:28:56,266 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:28:56,267 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:30:32,613 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:30:32,616 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:30:41,890 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:30:41,900 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:30:52,938 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:30:52,938 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:31:38,193 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:31:38,193 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:33:15,553 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:33:15,553 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:33:41,382 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:33:41,390 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:34:03,038 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:34:03,046 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:35:55,691 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:35:55,693 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:01,807 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:01,810 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:05,611 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:05,618 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:08,487 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:08,487 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:10,905 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:10,905 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:13,972 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:13,980 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:16,671 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:16,671 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:19,264 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:19,266 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:22,521 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:22,521 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:25,411 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:25,411 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:37:28,525 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:37:28,525 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:38:05,323 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:38:05,323 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:43:45,472 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:43:45,472 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:44:02,273 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:44:02,273 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:44:04,138 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:44:04,143 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:46:05,077 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:46:06,162 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:46:38,615 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:46:42,650 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 23:49:19,548 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:49:24,065 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:49:27,280 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 23:51:53,711 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:51:53,711 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:51:54,749 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:52:00,285 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 23:57:50,373 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:57:52,175 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:57:53,763 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-09-30 23:58:17,311 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:58:17,311 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:58:22,158 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:58:22,161 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:58:28,140 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:58:28,148 - power_availability_app - INFO - Model loaded successfully.
+2025-09-30 23:58:34,760 - power_availability_app - INFO - Dataset loaded successfully.
+2025-09-30 23:58:34,762 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 18:47:34,915 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 18:47:39,539 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 18:47:42,722 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-01 18:47:57,098 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 18:47:57,101 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 18:48:05,634 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 18:48:05,636 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 18:48:08,095 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 18:48:08,095 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 18:50:01,518 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 18:50:01,518 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:14:39,937 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:14:39,938 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:15:08,585 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:15:08,585 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:17:52,085 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:17:52,085 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:18:08,339 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:18:08,341 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:19:11,935 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:19:11,935 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:21:51,791 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:21:51,793 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:22:24,709 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:22:24,711 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:22:27,983 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:22:27,985 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:22:30,744 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:22:30,751 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:22:47,408 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:22:47,410 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:22:54,752 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:22:54,753 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:23:00,879 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:23:00,880 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:23:52,574 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:23:52,905 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:24:26,023 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:24:26,024 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:24:29,859 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:24:29,860 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:24:50,605 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:24:50,608 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:27:29,191 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:27:29,192 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:27:34,226 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:27:34,226 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:28:34,591 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:28:34,592 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:28:47,538 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:28:47,538 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:29:06,504 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:29:06,504 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:30:49,160 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:30:49,160 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:30:49,160 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:30:49,160 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:30:54,964 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:30:54,964 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:02,482 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:02,482 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:14,531 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:14,531 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:28,568 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:28,568 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:30,162 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:30,163 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:31,760 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:31,760 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:36,432 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:36,432 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:40,261 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:40,261 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:40,661 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:31:44,153 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:31:44,153 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:31:44,448 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:31:44,449 - power_availability_app - INFO - Hourly allocation computed: [4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667]
+2025-10-01 22:32:20,619 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:20,619 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:32:21,020 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:32:21,020 - power_availability_app - INFO - Hourly allocation computed: [4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667]
+2025-10-01 22:32:23,399 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:23,400 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:32:23,708 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:32:23,710 - power_availability_app - INFO - Hourly allocation computed: [4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667]
+2025-10-01 22:32:24,679 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:24,679 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:32:24,972 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:32:24,972 - power_availability_app - INFO - Hourly allocation computed: [4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667]
+2025-10-01 22:32:37,438 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:37,439 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:32:37,899 - power_availability_app - INFO - Allocations computed: {'Commercial': 15.624999999999996, 'Industrial': 12.5, 'Residential': 21.875, 'Healthcare': 50.000000000000014}
+2025-10-01 22:32:37,900 - power_availability_app - INFO - Hourly allocation computed: [4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667
+ 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667 4.16666667]
+2025-10-01 22:32:43,848 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:43,848 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:32:51,665 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:32:51,665 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:24,879 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:24,880 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:28,967 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:28,967 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:30,284 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:30,284 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:31,836 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:31,837 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:33,240 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:33,240 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:35,889 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:35,889 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:38,578 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:38,579 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:39,678 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:39,678 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:42,283 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:42,284 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:44,424 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:44,424 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:33:47,050 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:33:47,050 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:34:52,590 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:34:52,590 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:34:54,685 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:34:54,685 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:34:57,109 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:34:57,109 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:35:33,757 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:35:33,758 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:35:36,363 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:35:36,363 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:35:39,822 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:35:39,822 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:36:01,237 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:36:01,237 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:36:02,448 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:36:02,449 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:36:04,126 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:36:04,126 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:36:06,537 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:36:06,537 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:36:21,973 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:36:21,974 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:37:57,397 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:37:57,399 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:38:03,281 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:38:03,281 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:38:09,744 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:38:09,745 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:38:11,857 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:38:11,857 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:39:43,772 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:39:43,773 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:39:49,984 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:39:49,986 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:39:52,426 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:39:52,431 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:39:58,912 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:39:58,912 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:40:00,214 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:40:00,217 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:40:02,138 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:40:02,147 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:40:05,771 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:40:05,772 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:40:48,934 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:40:50,571 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 22:40:51,485 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-01 22:46:12,499 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 22:46:12,500 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:19:10,157 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:19:10,179 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:19:26,536 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:19:26,543 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:19:45,527 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:19:45,527 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:32:55,533 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:32:55,537 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:33:04,617 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:33:04,617 - power_availability_app - INFO - Model loaded successfully.
+2025-10-01 23:34:16,587 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-01 23:34:16,587 - power_availability_app - INFO - Model loaded successfully.
+2025-10-02 00:02:35,599 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-02 00:02:35,599 - power_availability_app - INFO - Model loaded successfully.
+2025-10-02 01:28:28,147 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-02 01:28:28,155 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:09:34,890 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-16 15:11:10,812 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:11:11,257 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:12:13,581 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:12:13,582 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:12:33,777 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:12:33,778 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:21:52,681 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:21:52,682 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:22:09,225 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:22:09,226 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:27:39,131 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:27:39,132 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:28:36,656 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:28:36,658 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:28:50,172 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:28:50,173 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:28:56,659 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:28:56,660 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:29:22,144 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:29:22,147 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:29:31,898 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:29:31,899 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:30:10,385 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:30:10,386 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:51:43,087 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:51:43,090 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:51:44,999 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:51:45,000 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:51:46,202 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:51:46,203 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:51:50,871 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:51:50,873 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:51:51,136 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:51:51,138 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:52:48,976 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:52:48,977 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:53:01,829 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:53:01,830 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:53:07,666 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:53:07,667 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:56:36,924 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:56:36,925 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:57:55,892 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:57:55,894 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:58:09,020 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:58:09,022 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 15:58:19,440 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 15:58:19,442 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:04:15,067 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:04:15,081 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:04:22,401 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:04:22,401 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:04:23,953 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:04:23,953 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:04:40,534 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:04:40,546 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:04:41,865 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:04:41,865 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:05:14,991 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:05:14,992 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:05:27,733 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:05:27,734 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:05:41,749 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:05:41,750 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:06:54,340 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:06:54,341 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:07:00,476 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:07:00,477 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:07:04,055 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:07:04,056 - power_availability_app - INFO - Model loaded successfully.
+2025-10-16 16:07:13,681 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-16 16:07:13,682 - power_availability_app - INFO - Model loaded successfully.
