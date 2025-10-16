@@ -46,50 +46,6 @@ avg_consumption = df.groupby("feeder_type")["consumption_mwh"].mean()
 avg_consumption["Healthcare"] = avg_consumption.mean()  # baseline demand proxy
 
 
-# -----------------------------
-# Allocation with time-windows
-# -----------------------------
-# def allocate_energy_with_timewindows(supply_mw, pred_avail_hrs, avg_consumption):
-#     time_windows = {
-#         "00:00–05:00": ["Healthcare", "Residential"],
-#         "05:00–09:00": ["Healthcare", "Residential", "Commercial"],
-#         "09:00–12:00": ["Healthcare", "Industrial", "Commercial"],
-#         "12:00–15:00": ["Healthcare", "Industrial"],
-#         "15:00–18:00": ["Healthcare", "Industrial", "Commercial"],
-#         "18:00–23:00": ["Healthcare", "Residential", "Commercial"],
-#         "23:00–24:00": ["Healthcare", "Residential"],
-#     }
-
-#     per_hour_supply = supply_mw / pred_avail_hrs
-#     hourly_allocation = {h: {} for h in range(24)}
-
-#     for window, feeders in time_windows.items():
-#         start, end = window.split("–")
-#         start_h = int(start.split(":")[0])
-#         end_h = int(end.split(":")[0]) if end != "24:00" else 24
-
-#         for h in range(start_h, end_h):
-#             remaining = per_hour_supply
-#             alloc = {}
-
-#             # Healthcare always gets 40%
-#             if "Healthcare" in feeders:
-#                 alloc["Healthcare"] = 0.4 * per_hour_supply
-#                 remaining -= alloc["Healthcare"]
-
-#             # Split remainder across other feeders proportionally
-#             others = [f for f in feeders if f != "Healthcare"]
-#             if others:
-#                 weights = avg_consumption[others] / avg_consumption[others].sum()
-#                 for feeder in others:
-#                     alloc[feeder] = weights[feeder] * remaining
-
-#             hourly_allocation[h] = alloc
-
-#     return hourly_allocation
-
-
-# -----------------------------
 # Streamlit UI
 # -----------------------------
 st.title("⚡ Power Availability Prediction & Allocation")
