@@ -1,2 +1,8 @@
 2025-10-16 15:04:15,756 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
 
+2025-10-17 00:45:48,203 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-17 00:49:58,604 - tensorflow - WARNING - From c:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\.venv\lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-17 01:06:03,482 - power_availability_app - INFO - Dataset loaded successfully.
+2025-10-17 01:06:04,029 - power_availability_app - INFO - Model loaded successfully.
