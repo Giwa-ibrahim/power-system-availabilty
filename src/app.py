@@ -22,7 +22,7 @@ logger = logging.getLogger("power_availability_app")
 # -----------------------------
 # Load dataset
 # -----------------------------
-file_path = os.path.join('..', 'cleaned_data', 'new_data.csv')
+file_path =r"C:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\cleaned_data\new_data.csv"
 df = pd.read_csv(file_path, index_col=0).reset_index(drop=True)
 logger.info("Dataset loaded successfully.")
 
@@ -31,7 +31,7 @@ logger.info("Dataset loaded successfully.")
 # -----------------------------
 @st.cache_resource
 def get_model():
-    model_path = os.path.join('..', 'model_metrics', 'BiLSTM_model.keras')
+    model_path =r"C:\Users\pc\Documents\Bells COLENG\Dr Amole\Optimization of Power System Avaliability\model_metrics\BiLSTM_model.keras"
     return load_model(model_path)
 
 model = get_model()
