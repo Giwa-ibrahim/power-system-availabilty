@@ -1,14 +1,14 @@
 # Power System Availability Prediction & Energy Allocation
 
-A ML system for predicting power system availability and optimizing energy allocation across different feeder types using deep learning models including BiLSTM, LSTM, and GRU networks.
+A machine learning system for predicting power system availability and optimizing energy allocation across different feeder types using deep learning models (BiLSTM, LSTM, GRU) and advanced hyperparameter optimization algorithms.
 
 ## 🎯 Project Overview
 
-This project addresses the critical challenge of power distribution management by:
+This project addresses the challenge of power distribution management by:
 - **Predicting availability hours** for 33KV power feeders using historical data
-- **Optimizing energy allocation** across different feeder types (Residential, Commercial, Industrial, Healthcare)
-- **Providing real-time insights** through an interactive Streamlit web application
-- **Supporting decision-making** for power system operators and planners
+- **Optimizing energy allocation** across feeder types (Residential, Commercial, Industrial, Healthcare)
+- **Comparing multiple deep learning models** with various hyperparameter optimization strategies (Dragonfly, Hyperband, Optuna)
+- **Providing real-time insights** via an interactive Streamlit web application
 
 ## 🏗️ Project Structure
 
@@ -17,22 +17,22 @@ power-system-availability-prediction/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── cleaned_data/           # Processed datasets
+├── cleaned_data/
 │   ├── agbara_data.csv
 │   ├── data_stat.csv
 │   └── new_data.csv
-├── data/                   # Raw datasets (33KV availability & consumption data)
-├── model_metrics/          # Model performance and saved models
+├── data/
+├── model_metrics/
 │   ├── best_model_metrics_sorted.csv
 │   ├── best_model_metrics.csv
 │   ├── BiLSTM_model.keras
 │   └── model_metrics_comparison.csv
-├── src/                    # Source code
+├── src/
 │   ├── __init__.py
-│   ├── app.py             # Streamlit web application
-│   ├── data_clean_and_analysis.ipynb  # Data preprocessing & EDA
-│   └── model_train.ipynb  # Model training & evaluation
-└── tuning_params/         # Hyperparameter tuning results
+│   ├── app.py
+│   ├── data_clean_and_analysis.ipynb
+│   └── model_train.ipynb
+└── tuning_params/
     ├── bilstm_tuning/
     ├── gru_tuning/
     └── lstm_tuning/
@@ -43,7 +43,7 @@ power-system-availability-prediction/
 ### 🔮 Prediction Capabilities
 - **Availability Forecasting**: Predict daily availability hours for power feeders
 - **Multi-Model Support**: BiLSTM, LSTM, GRU, and traditional ML models
-- **Feature Engineering**: Time-based features, lag variables, and consumption patterns
+- **Advanced Hyperparameter Tuning**: Dragonfly (Bayesian, Random, Direct, PDOO), Hyperband, Optuna
 
 ### ⚡ Energy Allocation
 - **Time-Window Based Allocation**: Different allocation strategies for different hours
@@ -65,8 +65,8 @@ power-system-availability-prediction/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/power-system-availability-prediction.git
-cd power-system-availability-prediction
+git clone https://github.com/Giwa-ibrahim/power-system-availability.git
+cd power-system-availability
 ```
 
 2. **Install dependencies**
@@ -90,32 +90,21 @@ streamlit run app.py
 
 The application will be available at `http://localhost:8501`
 
-### Using the Application
-
-1. **Enter Energy Supply**: Input total available energy in MWh
-2. **Select Feeder**: Choose from available 33KV feeders
-3. **Pick Date**: Select date for prediction
-4. **View Results**: Get availability predictions and allocation strategies
-
 ### Data Processing & Model Training
 
 1. **Data Cleaning & Analysis**
 ```bash
-# Open and run the Jupyter notebook
 jupyter notebook src/data_clean_and_analysis.ipynb
 ```
 
-2. **Model Training**
+2. **Model Training & Evaluation**
 ```bash
-# Open and run the model training notebook
 jupyter notebook src/model_train.ipynb
 ```
 
-## 🧠 Machine Learning Models
+## 🧠 Machine Learning Models & Optimization
 
-### Model Architecture
-
-The project implements several deep learning models:
+### Model Architectures
 
 #### BiLSTM (Best Performing)
 ```python
@@ -130,35 +119,38 @@ def build_bilstm_model(input_shape):
     return model
 ```
 
-#### LSTM
-- Standard LSTM layers with dropout regularization
-- Hyperparameter tuning using Keras Tuner
+#### LSTM & GRU
+- Standard LSTM/GRU layers with dropout regularization
+- Hyperparameter tuning using Keras Tuner, Dragonfly, and Optuna
 
-#### GRU  
-- Gated Recurrent Units for sequence modeling
-- Optimized using Dragonfly algorithm
+### Hyperparameter Optimization Algorithms
+
+- **Dragonfly**: Bayesian, Random, Direct, PDOO methods
+- **Hyperband**: Successive halving and early stopping
+- **Optuna**: Tree-structured Parzen Estimator (TPE)
+- **Grid/Random Search**: Traditional methods
 
 ### Performance Metrics
 
 Models are evaluated using:
 - **MAE** (Mean Absolute Error)
-- **MSE** (Mean Squared Error) 
+- **MSE** (Mean Squared Error)
 - **RMSE** (Root Mean Square Error)
 - **R² Score** (Coefficient of Determination)
-- **MAPE** (Mean Absolute Percentage Error)
+- **MAPE** (Mean Absolute Percentage Error, with robust calculation to avoid division by zero issues)
 
 ## 📈 Energy Allocation Strategy
 
 ### Time-Based Windows
 ```python
 time_windows = [
-    (0, 5, ["Healthcare", "Residential"]),           # Night hours
-    (5, 9, ["Healthcare", "Residential", "Commercial"]),    # Morning
-    (9, 12, ["Healthcare", "Industrial", "Commercial"]),    # Business hours
-    (12, 15, ["Healthcare", "Industrial"]),          # Afternoon peak
-    (15, 18, ["Healthcare", "Industrial", "Commercial"]),   # Evening business
-    (18, 23, ["Healthcare", "Residential", "Commercial"]),  # Evening residential
-    (23, 24, ["Healthcare", "Residential"]),         # Late night
+    (0, 5, ["Healthcare", "Residential"]),
+    (5, 9, ["Healthcare", "Residential", "Commercial"]),
+    (9, 12, ["Healthcare", "Industrial", "Commercial"]),
+    (12, 15, ["Healthcare", "Industrial"]),
+    (15, 18, ["Healthcare", "Industrial", "Commercial"]),
+    (18, 23, ["Healthcare", "Residential", "Commercial"]),
+    (23, 24, ["Healthcare", "Residential"]),
 ]
 ```
 
@@ -170,13 +162,13 @@ time_windows = [
 ## 📊 Data Features
 
 ### Input Features
-- `feeder_id`: Unique identifier for each feeder
-- `consumption_mwh`: Average consumption in MWh
-- `feeder_type`: Type classification (Residential/Commercial/Industrial)
-- `day_of_week`: Day of the week (0-6)
-- `month`: Month of the year (1-12)
-- `is_weekend`: Weekend indicator (0/1)
-- `lag1_avail`: Previous day's availability hours
+- `feeder_id`
+- `consumption_mwh`
+- `feeder_type`
+- `day_of_week`
+- `month`
+- `is_weekend`
+- `lag1_avail`
 
 ### Target Variable
 - `availability_hrs`: Daily availability hours (1-24)
@@ -192,7 +184,7 @@ Key hyperparameters for BiLSTM model:
 - **Epochs**: 50
 
 ### Logging
-Application logs are saved to [`app.log`](src/app.py) with INFO level logging for debugging and monitoring.
+Application logs are saved to [`app.log`](src/app.py) with INFO level logging.
 
 ## 📝 Dependencies
 
@@ -205,6 +197,8 @@ tensorflow>=2.13.0
 scikit-learn>=1.3.0
 keras-tuner>=1.4.0
 xgboost>=1.7.0
+dragonfly-opt>=0.1.6
+optuna>=3.0.0
 ```
 
 ## 🤝 Contributing
