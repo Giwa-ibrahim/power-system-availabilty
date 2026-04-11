@@ -1,232 +1,126 @@
 # Power System Availability Prediction & Energy Allocation
 
-A machine learning system for predicting power system availability and optimizing energy allocation across different feeder types using deep learning models (BiLSTM, LSTM, GRU) and advanced hyperparameter optimization algorithms.
+Machine learning system for predicting power availability and optimizing energy allocation across feeder types using BiLSTM deep learning with advanced hyperparameter optimization.
 
-## 🎯 Project Overview
+## 🎯 Overview
 
-This project addresses the challenge of power distribution management by:
-- **Predicting availability hours** for 33KV power feeders using historical data
-- **Optimizing energy allocation** across feeder types (Residential, Commercial, Industrial, Healthcare)
-- **Comparing multiple deep learning models** with various hyperparameter optimization strategies (Dragonfly, Hyperband, Optuna)
-- **Providing real-time insights** via an interactive Streamlit web application
+- **Predict** daily availability hours for 33KV power feeders
+- **Allocate** energy optimally across feeder types (Residential, Commercial, Industrial, Healthcare)
+- **Optimize** model performance using Dragonfly, Hyperband, and Optuna algorithms
+- **Visualize** predictions and allocation via interactive Streamlit dashboard
 
 ## 🏗️ Project Structure
 
 ```
-power-system-availability-prediction/
-├── README.md
-├── requirements.txt
-├── .gitignore
+├── app.py                           # Streamlit application (entry point)
+├── utils.py                         # Prediction & allocation utilities
+├── requirements.txt                 # Python dependencies
 ├── cleaned_data/
-│   ├── agbara_data.csv
-│   ├── data_stat.csv
-│   └── new_data.csv
-├── data/
+│   └── processed_data.csv          # Processed dataset with features
 ├── model_metrics/
-│   ├── best_model_metrics_sorted.csv
-│   ├── best_model_metrics.csv
-│   ├── BiLSTM_model.keras
-│   └── model_metrics_comparison.csv
-├── src/
-│   ├── __init__.py
-│   ├── app.py
-│   ├── data_clean_and_analysis.ipynb
-│   └── model_train.ipynb
-└── tuning_params/
-    ├── bilstm_tuning/
-    ├── gru_tuning/
-    └── lstm_tuning/
+│   └── BiLSTM Hyperband.keras      # Trained BiLSTM model
+└── src/
+    ├── data_clean_and_analysis.ipynb
+    └── model_train best.ipynb      # Model training & optimization
 ```
 
-## 🚀 Features
+## 🚀 Quick Start
 
-### 🔮 Prediction Capabilities
-- **Availability Forecasting**: Predict daily availability hours for power feeders
-- **Multi-Model Support**: BiLSTM, LSTM, GRU, and traditional ML models
-- **Advanced Hyperparameter Tuning**: Dragonfly (Bayesian, Random, Direct, PDOO), Hyperband, Optuna
+### Installation
 
-### ⚡ Energy Allocation
-- **Time-Window Based Allocation**: Different allocation strategies for different hours
-- **Priority-Based Distribution**: Healthcare feeders get priority (40% allocation)
-- **Proportional Allocation**: Remaining energy distributed based on consumption patterns
-
-### 📊 Interactive Dashboard
-- **Real-time Predictions**: Enter supply values and get instant availability predictions
-- **Visual Analytics**: Bar charts, pie charts, and line plots for allocation insights
-- **Feeder Selection**: Choose specific feeders for targeted analysis
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Python 3.8+
-- pip package manager
-
-### Installation Steps
-
-1. **Clone the repository**
 ```bash
+# Clone repository
 git clone https://github.com/Giwa-ibrahim/power-system-availability.git
 cd power-system-availability
-```
 
-2. **Install dependencies**
-```bash
+# Install dependencies (Python 3.8+)
 pip install -r requirements.txt
 ```
 
-3. **Verify data files**
-Ensure your data files are in the `data/` directory:
-- 33KV Daily Availability (2019-2021).xlsx
-- 33KV Daily Consumption (2019-2021).xlsx
-
-## 🎮 Usage
-
-### Running the Web Application
+### Run Application
 
 ```bash
-cd src
 streamlit run app.py
 ```
 
-The application will be available at `http://localhost:8501`
+Access at `http://localhost:8501`
 
-### Data Processing & Model Training
+**Usage:**
+1. Enter total energy supply (MWh)
+2. Select feeder from dropdown
+3. Choose prediction date
+4. Click "Predict & Allocate"
 
-1. **Data Cleaning & Analysis**
-```bash
-jupyter notebook src/data_clean_and_analysis.ipynb
-```
+## 🧠 Model Architecture
 
-2. **Model Training & Evaluation**
-```bash
-jupyter notebook src/model_train.ipynb
-```
+### BiLSTM (Best Model)
+- **Input**: 7 timesteps × 7 features
+- **Architecture**: Bidirectional LSTM layers with dropout
+- **Output**: Predicted availability hours (1-24)
 
-## 🧠 Machine Learning Models & Optimization
+### Features Used
+- `feeder_name` (encoded)
+- `district` (encoded)
+- `consumption_mwh`
+- `lag1_avail`, `lag2_avail`, `lag3_avail`
+- `yesterday_full`
 
-### Model Architectures
+### Hyperparameter Optimization
+- **Dragonfly**: Bayesian optimization
+- **Hyperband**: Successive halving
+- **Optuna**: Tree-structured Parzen Estimator
 
-#### BiLSTM (Best Performing)
-```python
-def build_bilstm_model(input_shape):
-    model = Sequential([
-        Bidirectional(LSTM(128, return_sequences=True, input_shape=input_shape)),
-        Bidirectional(LSTM(32)),
-        Dense(16, activation='relu', kernel_regularizer=l2(0.01)),
-        Dropout(0.2),
-        Dense(1, activation='linear')
-    ])
-    return model
-```
+### Evaluation Metrics
+MAE, MSE, RMSE, R², MAPE
 
-#### LSTM & GRU
-- Standard LSTM/GRU layers with dropout regularization
-- Hyperparameter tuning using Keras Tuner, Dragonfly, and Optuna
+## ⚡ Energy Allocation Strategy
 
-### Hyperparameter Optimization Algorithms
-
-- **Dragonfly**: Bayesian, Random, Direct, PDOO methods
-- **Hyperband**: Successive halving and early stopping
-- **Optuna**: Tree-structured Parzen Estimator (TPE)
-- **Grid/Random Search**: Traditional methods
-
-### Performance Metrics
-
-Models are evaluated using:
-- **MAE** (Mean Absolute Error)
-- **MSE** (Mean Squared Error)
-- **RMSE** (Root Mean Square Error)
-- **R² Score** (Coefficient of Determination)
-- **MAPE** (Mean Absolute Percentage Error, with robust calculation to avoid division by zero issues)
-
-## 📈 Energy Allocation Strategy
-
-### Time-Based Windows
+### Time-Based Priority Windows
 ```python
 time_windows = [
-    (0, 5, ["Healthcare", "Residential"]),
-    (5, 9, ["Healthcare", "Residential", "Commercial"]),
-    (9, 12, ["Healthcare", "Industrial", "Commercial"]),
-    (12, 15, ["Healthcare", "Industrial"]),
-    (15, 18, ["Healthcare", "Industrial", "Commercial"]),
-    (18, 23, ["Healthcare", "Residential", "Commercial"]),
-    (23, 24, ["Healthcare", "Residential"]),
+    (0-5h: Healthcare, Residential),
+    (5-9h: Healthcare, Residential, Commercial),
+    (9-12h: Healthcare, Industrial, Commercial),
+    (12-15h: Healthcare, Industrial),
+    (15-18h: Healthcare, Industrial, Commercial),
+    (18-23h: Healthcare, Residential, Commercial),
+    (23-24h: Healthcare, Residential)
 ]
 ```
 
 ### Allocation Rules
-1. **Healthcare Priority**: Always receives 40% when active
-2. **Proportional Distribution**: Remaining 60% distributed based on historical consumption
-3. **Time-Sensitive**: Different feeder combinations for different hours
+1. **Healthcare Priority**: 40% allocation when active
+2. **Proportional Distribution**: Remaining 60% based on consumption patterns
+3. **Time-Sensitive**: Feeder combinations vary by hour
 
-## 📊 Data Features
-
-### Input Features
-- `feeder_id`
-- `consumption_mwh`
-- `feeder_type`
-- `day_of_week`
-- `month`
-- `is_weekend`
-- `lag1_avail`
-
-### Target Variable
-- `availability_hrs`: Daily availability hours (1-24)
-
-## 🔧 Configuration
-
-### Model Parameters
-Key hyperparameters for BiLSTM model:
-- **Units**: 128 (first layer), 32 (second layer)
-- **Dropout Rate**: 0.3
-- **Learning Rate**: 0.0001325
-- **Batch Size**: 32
-- **Epochs**: 50
-
-### Logging
-Application logs are saved to [`app.log`](src/app.py) with INFO level logging.
-
-## 📝 Dependencies
+## 📊 Key Dependencies
 
 ```txt
 streamlit>=1.28.0
+tensorflow>=2.13.0
 pandas>=1.5.0
 numpy>=1.24.0
-matplotlib>=3.6.0
-tensorflow>=2.13.0
 scikit-learn>=1.3.0
+matplotlib>=3.6.0
 keras-tuner>=1.4.0
-xgboost>=1.7.0
-dragonfly-opt>=0.1.6
 optuna>=3.0.0
+dragonfly-opt>=0.1.6
 ```
 
-## 🤝 Contributing
+## 📝 Model Training
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+To retrain or experiment with models:
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+jupyter notebook src/model_train\ best.ipynb
+```
 
 ## 🙏 Acknowledgments
 
-- **Dr. Amole** - Project Supervisor
-- **Bells University** - Research Support
-- **Power Distribution Companies** - Data Provision
-- **TensorFlow/Keras Team** - Deep Learning Framework
-- **Streamlit Team** - Web Application Framework
-
-## 📞 Contact
-
-**Project Team**: Bells COLENG Research Group  
 **Supervisor**: Dr. Amole  
-**Institution**: Bells University of Technology
+**Institution**: Bells University of Technology - College of Engineering  
+**Project**: Optimization of Power System Availability
 
 ---
 
-**Note**: This project is part of ongoing research in "Optimization of Power System Availability" at Bells University College of Engineering.
+*Research project conducted at Bells COLENG, 2026*

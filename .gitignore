@@ -2,3 +2,10 @@
 data/
 tuning_params/
 app.log
+test/
+
+# all docx. 
+*.docx
+*.tmp
+raw_data.zip
+app.log
